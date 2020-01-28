@@ -14,7 +14,7 @@ int main(int argc, char const *argv[])
     for (int i = 0; i < PARTIDAS; i++)
     {
         numeroAleatorio = getRandom();
-        printf("%d", numeroAleatorio);
+        //printf("%d", numeroAleatorio);
 
         for (int i = 0; i < NUMERO_INTENTOS; i++) //1.Inicializacion. 2. Validacion. 3. Incremento(que quieras)
         {
